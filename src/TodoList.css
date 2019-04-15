@@ -1,0 +1,27 @@
+body {
+  background: url(http://getwallpapers.com/wallpaper/full/1/6/7/686729.jpg);
+}
+
+.container {
+  min-height: 100vh;
+}
+
+.col {
+  margin-top: 50px;
+}
+
+i {
+  margin-top: 4px;
+}
+
+.collection-item {
+  margin-bottom: 10px;
+  color: teal;
+  text-transform: uppercase;
+  transition: background-color 1s;
+}
+
+.collection-item:hover {
+  background-color: teal;
+  color: white;
+}
